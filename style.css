@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;]
+    
+    
+}
+body{
+    font-family: 'Zilla Slab', serif;
+    box-sizing: border-box;
+    background-color:#f5cec2 !important ;
+    
+
+}
+.header{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+.container{
+    min-height: 550px;
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+background: #f5cec2;
+box-shadow:  10px 10px 10px #d0afa5,
+             -10px -10px 10px #ffeddf;
+
+    
+}
+input{
+    background: none !important;
+    border: none !important;
+    box-shadow:  8px 8px 8px #d0afa5,
+             -8px -8px 10px #ffeddf;
+}
+
+.form-control:focus{
+    outline: none !important;
+    background: none !important;
+    border: none!important;
+    box-shadow: none !important;
+    
+
+}
+#title,#author,#year{
+border-radius: 25px;
+   
+
+
+}
